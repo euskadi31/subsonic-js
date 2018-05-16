@@ -1,0 +1,41 @@
+{
+  "name": "subsonic",
+  "version": "1.0.0",
+  "description": "Javascript audio library for the modern web.",
+  "main": "dist/subsonic.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --colors --mode=production",
+    "dev": "NODE_ENV=development webpack --colors --watch --mode=development",
+    "test": "karma start"
+  },
+  "keywords": [
+    "audio",
+    "sound",
+    "web audio",
+    "html5",
+    "html5 audio",
+    "music"
+  ],
+  "author": "Axel Etcheverry",
+  "license": "MIT",
+  "typings": "dist/subsonic.d.ts",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "chai": "^4.1.2",
+    "jasmine-core": "^2.7.0",
+    "jsdom": "^11.2.0",
+    "karma": "^2.0.2",
+    "karma-jasmine": "^1.1.0",
+    "karma-jsdom-launcher": "^6.1.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.4",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^4.3.0",
+    "tslint": "^5.10.0",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.8.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}

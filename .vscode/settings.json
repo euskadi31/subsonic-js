@@ -1,0 +1,5 @@
+{
+    "eslint.enable": false,
+    "tslint.enable": true,
+    "typescript.format.enable": true,
+}
